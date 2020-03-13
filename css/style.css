@@ -1,0 +1,253 @@
+body {
+	background-color:white;
+}
+
+#First-Image{ 
+
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.row1{ 
+  padding: 10px;  
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.column1{
+  padding: 15px;
+  color: black;   
+}
+.column2{ 
+  padding: 15px;
+  color: black; 
+/*  margin-left: 15px;
+  margin-right: 15px;*/   
+}
+.column3{
+  padding: 15px;
+  color: black;
+}
+.row2{ 
+  width: 100%;  
+  padding: 10px; 
+  overflow: hidden;  
+}
+.services{ 
+  width: 100%;  
+  display: flex;
+  overflow: hidden;
+  margin-left: 60px; 
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.articles{ 
+  width: 100%;  
+  display: flex;
+  overflow: hidden;
+  margin-left: 60px;    
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.img{  
+  padding: 25px;
+  text-align: center;  
+  width: 100%;
+}
+.img_1{
+  padding: 15px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  width: 100%; 
+  margin-right: 60px;  
+}
+.img_1:hover{
+  border: 1px;
+  box-shadow: 0px 4px 8px 3px #888888;
+  border-color: black;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: block;
+}
+.sys{ 
+  width: 50px;
+  height: 50px;
+  border:1px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #00CED1;
+  overflow: hidden;
+  object-fit: contain;
+}
+/*.desc{
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+}*/
+.desc{
+  color: #777;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;  
+  line-height: 20px;
+  height: 75px;
+}
+.descarticle{
+  color: #777;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;  
+  line-height: 20px;
+  height: 100px;
+}
+.desc1{
+  color: #777;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;  
+  line-height: 20px;
+  overflow: hidden;  
+}
+.title{
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center;
+  min-height: 77px;
+}
+.title1{
+  font-size: 22px;  
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center; 
+  padding: 0; 
+}
+.titlearticle{
+  font-size: 22px;  
+  color: #000;
+  margin-bottom: 10px;
+  text-align: center; 
+  height: 75px; 
+}
+.head{
+  font-family: "Open Sans", sans-serif; 
+  text-align: center;
+  font-weight: 700px;
+  width: 100%;
+  margin-top: 9px;
+  margin-bottom: 32px;
+  overflow: hidden;
+}
+.link{
+  padding: 20px;
+  text-align: center;
+}
+.servicelink{
+  font-size: 15px;
+  font-weight: 700;
+  color: #333;
+  border-color: #098b8c;
+  border-width: 4px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;    
+  text-decoration: none
+}
+.link1{
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.linkcolor{
+  color: #098b8c;  
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: .3px;
+  border-bottom: none;
+  text-decoration: none;
+
+}
+.linkcolor:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+.footerimg{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+.serviceimg{
+  width: 100%;
+  height: 250px;
+  display: block;
+  overflow: hidden;
+}
+.serviceimg:hover{
+  transform: scale(1.5);
+  transition: transform .5s; 
+
+}
+.linkcolor:active {
+  color: red;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: #1c2331;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.logo{
+  padding-top: 20px;  
+  text-align: center;
+  display: block;
+  padding-bottom: 20px;
+}
+.logoimg{
+  width: 240px;
+  height: 136px;  
+  vertical-align: middle;  
+}
+.map{
+  width: 100%; 
+  vertical-align: middle;  
+  overflow: hidden;
+}
+.list{
+  padding: 25px;
+}
+.list-content{
+  list-style-type: none;
+  text-align: left;
+  color: white;
+}
+.head_line{
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.articlelink{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: auto;
+  line-height: 22.4px;
+  text-align: center;  
+  color: black;
+}
+.articlelink:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+
+
